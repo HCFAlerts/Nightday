@@ -61,7 +61,7 @@ mvn clean install
 
 ---
 
-### 🤝 Contributing
+## 🤝 Contributing
 - We welcome contributions from the community!  
   - To contribute:
 
@@ -93,7 +93,7 @@ git push origin feature/your-feature-name
 ---
 
 ## 📄 License
-- This project is licensed under the [GNU](LICENSE) License.
+- This project is licensed under the [GPL](LICENSE) License.
 
 ---
 

@@ -5,7 +5,6 @@ import co.aikar.commands.CommandHelp;
 import co.aikar.commands.annotation.*;
 import com.google.common.base.Charsets;
 import com.google.common.io.Files;
-import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import lombok.SneakyThrows;
 import me.andyreckt.holiday.api.API;
@@ -16,8 +15,6 @@ import me.andyreckt.holiday.bukkit.server.menu.rank.RankManagerMenu;
 import me.andyreckt.holiday.bukkit.server.redis.packet.PermissionUpdatePacket;
 import me.andyreckt.holiday.bukkit.user.UserConstants;
 import me.andyreckt.holiday.bukkit.util.files.Locale;
-import me.andyreckt.holiday.bukkit.util.files.Perms;
- 
   
 import me.andyreckt.holiday.bukkit.util.text.CC;
 import me.andyreckt.holiday.bukkit.util.text.TextComponentBuilder;
@@ -29,7 +26,6 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import java.io.File;
-import java.io.FileWriter;
 import java.util.HashSet;
 import java.util.Set;
 
