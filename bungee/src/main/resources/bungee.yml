@@ -1,0 +1,5 @@
+main: me.andyreckt.holiday.bungee.Bungee
+version: "${git.commit.id.abbrev}"
+api-version: 1.8
+author: AndyReckt
+name: Holiday
